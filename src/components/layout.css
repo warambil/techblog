@@ -834,4 +834,16 @@ footer {
   article .tags {
     font-size: 0.7rem;
   }
+
+  .tag-menu h1 {
+    margin-left: 0;
+  }
+
+  .tag-menu ul {
+    margin-left: 0;
+  }
+
+  .tag-menu li {
+    display: inline;
+  }
 }
