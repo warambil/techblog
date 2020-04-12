@@ -5,14 +5,14 @@ import React from "react"
 
 const Header = ({ siteTitle, siteDescription }) => (
   <header>
-    <div
+    <div className="header"
       style={{
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1em 0 0 1em`,
       }}
     >
-      <div className="logo">
+    <div className="logo">
         <h1>
           <Link
             to="/"

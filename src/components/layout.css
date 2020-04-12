@@ -775,3 +775,63 @@ footer {
     font-size: 100%;
   }
 }
+
+
+@media only screen and (max-width: 768px) {
+  main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  header {
+    margin-left: -8rem;
+  }
+
+  footer {
+    margin-left: 1rem;
+  }
+
+  .social a {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media only screen and (max-width: 375px) { 
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: start;
+  }    
+
+  header div.header {
+    margin: 0 0 0 8rem !important;
+  }
+
+  header .logo {
+    margin-left: 0;
+  }
+
+  header .top-menu {
+    padding: 0 1rem 0 0;
+    text-align: right;
+  }
+
+  article h1 {
+    font-size: 2em;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  article .social {
+    padding: 0;
+    text-align: right;
+  }
+
+  article .tags {
+    font-size: 0.7rem;
+  }
+}

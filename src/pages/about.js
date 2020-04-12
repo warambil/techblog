@@ -10,7 +10,7 @@ const SecondPage = () => (
     <div className="avatar">
       <Avatar />
     </div>
-    <article>
+    <article class="about">
       <h1>Wilman Arambillete</h1>
       <p>I'm am enthusiastic software professional who works at <a href="https://www.netsuite.com/portal/home.shtml" target="_blank" rel="noopener noreferrer">Oracle - NetSuite</a></p>
       <p>I have a unique passion for learning about technology and sharing what I have learned. I also love writing, so these two qualities combined gave birth to this blog.</p>
