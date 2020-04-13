@@ -776,7 +776,6 @@ footer {
   }
 }
 
-
 @media only screen and (max-width: 768px) {
   main {
     padding-left: 1rem;
@@ -792,7 +791,7 @@ footer {
   }
 
   .social a {
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
 
 }

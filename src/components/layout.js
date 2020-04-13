@@ -7,10 +7,11 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql,Link } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
+import "./layout.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,6 +28,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Helmet>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="HandheldFriendly" content="true" />
+      </Helmet>
       <Header siteTitle={ data.site.siteMetadata.title } siteDescription={ data.site.siteMetadata.description } />
       <div 
         style={{

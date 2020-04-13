@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `http://warambil.com`
   },
   plugins: [
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
