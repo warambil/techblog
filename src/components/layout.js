@@ -32,6 +32,7 @@ const Layout = ({ children }) => {
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="HandheldFriendly" content="true" />
+        <link rel="stylesheet" href="https://use.typekit.net/xlf0uhu.css"></link>
       </Helmet>
       <Header siteTitle={ data.site.siteMetadata.title } siteDescription={ data.site.siteMetadata.description } />
       <div 

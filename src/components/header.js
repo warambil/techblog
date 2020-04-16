@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from "./logo"
 
 
 const Header = ({ siteTitle, siteDescription }) => (
@@ -12,21 +13,10 @@ const Header = ({ siteTitle, siteDescription }) => (
         padding: `1em 0 0 1em`,
       }}
     >
-    <div className="logo">
-        <h1>
-          <Link
-            to="/"
-          >
-            {siteTitle}
-          </Link>
-        </h1>
-        <p style={{
-              fontStyle: `italic`, 
-              fontSize: `larger`
-            }}
-        >
-          {siteDescription}
-        </p> 
+      <div className="logo">
+        <Link to="/">
+          <Logo />  
+        </Link>
       </div>
     </div>
     <div className="top-menu">
