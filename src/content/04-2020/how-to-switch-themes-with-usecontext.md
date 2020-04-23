@@ -113,7 +113,7 @@ export default Header
 
 This code is self explanatory, a *Header* functional component  is defined where a set of basic Bootstrap components are used to render a top navbar with a logo, a menu and a search box.
 
-In addition, we make use of the *Context* by calling *useContext()* and passing the *ThemContext* context we have previously defined, as parameter.
+In addition, we make use of the *Context* by calling *useContext()* and passing the *ThemeContext* context we have previously defined, as parameter.
 
 So the *useContext* hook has to be imported at the beginning, as well as the *ThemeContext* component.
 
