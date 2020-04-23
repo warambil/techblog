@@ -9,7 +9,7 @@ author: Wilman Arambillete
 
 Since last year, React introduced hooks and with that a nicer way of solving common programming situations that previously required other third-party technologies and even complex props propagation scenarios.
 
-Hooks helped developers to use functions instead of classes, improve state management and  avoid the complexity that high-order components pattern and props rendering brought to the framework.
+Hooks helped developers to use functional components over classes, improve state management and  avoided the complexity that high-order components pattern and props rendering brought to the framework.
 
 Nowadays, React applications have become easier to implement and its code is more organized. One of the caveats about non opinionated frameworks is that its code might become cluttered somehow; in particular when they need of other tools to solve simple issues.
 
