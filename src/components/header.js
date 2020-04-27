@@ -4,37 +4,33 @@ import React from "react"
 import Logo from "./logo"
 import ThemeSwitcher from "./ThemeSwitcher"
 
+const Header = ({ siteTitle, siteDescription }) => (
+  <header>
+    <div className="header"
+      style={{
+        margin: `0 auto`,
+        maxWidth: 960,
+        padding: `1em 0 0 1em`,
+      }}
+    >
+      <div className="logo">
+        <Link to="/">
+          <Logo />  
+        </Link>
+      </div>
+    </div>
+    <div className="top-menu">
+      <ul>
+        <li><a href="/rss.xml">Feed</a></li>
+        <li><Link to="/about" activeClassName="active">About</Link></li>
+        <li>
+          <ThemeSwitcher />
+        </li>
+      </ul>
 
-const Header = ({ siteTitle, siteDescription }) => { 
-  return (
-    <>
-      <header>
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `1em 0 0 1em`,
-          }}
-        >
-          <div className="logo">
-            <Link to="/">
-              <Logo />  
-            </Link>
-          </div>
-        </div>
-        <div className="top-menu">
-          <ul>
-            <li><a href="/rss.xml">Feed</a></li>
-            <li><Link to="/about" activeClassName="active">About</Link></li>
-            <li>
-              <ThemeSwitcher />
-            </li>
-          </ul>
-        </div>
-      </header>
-    </>
-  )
-}
+    </div>
+  </header>
+)
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
