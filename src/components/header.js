@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Logo from "./logo"
+import ThemeSwitcher from "./ThemeSwitcher"
 
 
 const Header = ({ siteTitle, siteDescription }) => (
@@ -23,6 +24,9 @@ const Header = ({ siteTitle, siteDescription }) => (
       <ul>
         <li><a href="/rss.xml">Feed</a></li>
         <li><Link to="/about" activeClassName="active">About</Link></li>
+        <li>
+          <ThemeSwitcher />
+        </li>
       </ul>
 
     </div>
