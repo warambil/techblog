@@ -22,7 +22,7 @@ const Footer = ({ author }) => {
         </span>
       </div>
       <div className="info">          
-        <a href="https://www.netlify.com" /> 
+        <a href="https://www.netlify.com" >&nbsp</a> 
       </div>
     </footer>  
   )

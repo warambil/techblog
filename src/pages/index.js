@@ -1,13 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Layout from "../components/Layout"
-import SEO from "../components/SEO"
-import TagMenu from "../components/TagMenu"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import TagMenu from "../components/tagmenu"
 
 export default function IndexPage({ data }) {
   const { edges: posts } = data.allMarkdownRemark 
-    
+
   return (
     <Layout>
       <SEO title="Home" />
