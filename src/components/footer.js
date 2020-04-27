@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import { FaGithub } from "react-icons/fa"
 import { RiGatsbyLine } from "react-icons/ri"
 import { Link } from "gatsby"
@@ -22,7 +22,7 @@ const Footer = ({ author }) => {
         </span>
       </div>
       <div className="info">          
-        <a href="https://www.netlify.com" >&nbsp</a> 
+        <a href="https://www.netlify.com" ><div /></a> 
       </div>
     </footer>  
   )
