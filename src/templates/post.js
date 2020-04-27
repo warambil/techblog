@@ -25,7 +25,7 @@ export default function Template({ data }) {
             <div>
               <h1>{frontmatter.title}</h1>
             </div>    
-            <div class="social">
+            <div className="social">
               <a href="https://www.linkedin.com/in/warambillete/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
               <a href="https://github.com/warambil" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
               <a href="https://twitter.com/warambil" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>

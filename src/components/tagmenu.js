@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import kebabCase from "lodash/kebabCase"
 
 const TagMenu = ({ tagName }) => {
-  console.log('Tagname ' + tagName);
+  
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -25,7 +25,7 @@ const TagMenu = ({ tagName }) => {
   return (
     <>
       <Helmet title={title} />
-      <div className="tag-menu">
+      <div>
         <h1>Topics</h1>
         <ul className="tags">
           {group.map(tag => (

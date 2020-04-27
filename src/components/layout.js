@@ -6,11 +6,12 @@
  */
 
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql,Link } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.scss"
 
 const Layout = ({ children }) => {
@@ -25,7 +26,6 @@ const Layout = ({ children }) => {
       }
     }
   `)
-
   return (
     <>
       <Helmet>
@@ -42,12 +42,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          <div>
-            <Link to="/">Go to HomePage</Link>
-          </div> 
-          {data.site.siteMetadata.author} © {new Date().getFullYear()}
-        </footer>
+        <Footer author={ data.site.siteMetadata.author } />
       </div>
     </>
   )
@@ -56,5 +51,6 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
 
 export default Layout
