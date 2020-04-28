@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Logo from "./logo"
-import ThemeSwitcher from "./ThemeSwitcher"
+import ThemeSwitcher from "./themeswitcher"
 
 const Header = ({ siteTitle, siteDescription }) => (
   <header>
