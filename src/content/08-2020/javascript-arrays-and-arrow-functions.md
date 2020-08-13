@@ -111,7 +111,7 @@ Functions created through function declaration can be both, however *Arrow Funct
 
 ## Arrays and Arrow Functions
 
-So far we have seen how to correctly define and use Array Functions. Now, we are going to show how to properly use them while *filtering*, *transforming* or *reducing*  arrays.
+So far we have seen how to correctly define and use Arrow Functions. Now, we are going to show how to properly use them while *filtering*, *transforming* or *reducing*  arrays.
 
 For this purpose, we are going to explore some interesting and extensively used methods that JavasScript Arrays have to offer:
 
