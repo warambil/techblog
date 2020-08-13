@@ -40,7 +40,12 @@ const TagMenu = ({ tagName }) => {
         </ul>
       </div>
       <div className="bottom">
-        <a className="button" href="https://warambil.substack.com/subscribe">
+        <a
+          className="button"
+          href="https://warambil.substack.com/subscribe"
+          target="_blank"
+          rel="noreferrer"
+        >
           Join the newsletter
         </a>
       </div>
