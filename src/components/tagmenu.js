@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet"
 import kebabCase from "lodash/kebabCase"
 
 const TagMenu = ({ tagName }) => {
-  
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -20,22 +19,30 @@ const TagMenu = ({ tagName }) => {
       }
     }
   `)
-  const title = data.site.siteMetadata.title;
-  const group = data.allMarkdownRemark.group;
+  const title = data.site.siteMetadata.title
+  const group = data.allMarkdownRemark.group
   return (
     <>
       <Helmet title={title} />
       <div>
-        <h1>Topics</h1>
+        <h2>Topics</h2>
         <ul className="tags">
           {group.map(tag => (
             <li key={tag.fieldValue}>
-              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`} className={tag.fieldValue === tagName ? 'selected' : ''}>
+              <Link
+                to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                className={tag.fieldValue === tagName ? "selected" : ""}
+              >
                 {tag.fieldValue} ({tag.totalCount})
               </Link>
             </li>
           ))}
         </ul>
+      </div>
+      <div className="bottom">
+        <a className="button" href="https://warambil.substack.com/subscribe">
+          Join the newsletter
+        </a>
       </div>
     </>
   )
