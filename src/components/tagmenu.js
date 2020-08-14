@@ -44,7 +44,7 @@ const TagMenu = ({ tagName }) => {
           className="button"
           href="https://warambil.substack.com/subscribe"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           Join the newsletter
         </a>

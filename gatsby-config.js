@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `w Blog`,
-    description: `Sharing good stuff`,
+    description: `Blog about software development and technology`,
     author: `Wilman Arambillete`,
     siteUrl: `http://warambil.com`,
+    pinterestverification: `86df2b00182f1084b577765320e3f7c0`,
   },
   plugins: [
     `gatsby-plugin-dark-mode`,

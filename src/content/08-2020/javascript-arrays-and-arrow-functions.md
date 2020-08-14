@@ -4,6 +4,7 @@ date: 2020-08-12
 path: /javascript-arrays-and-arrow-functions
 abstract: Beginners introduction to what arrow functions are and how they can be used in functional programming
 tags: ["javascript"]
+readingtime: 6 minutes, 34 seconds
 author: Wilman Arambillete
 ---
 

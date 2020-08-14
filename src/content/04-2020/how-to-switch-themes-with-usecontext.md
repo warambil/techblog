@@ -4,6 +4,7 @@ date: 2020-04-22
 path: /how-to-switch-themes-with-usecontext
 abstract: This post shows with a very simple application in React that switches betweeen dark and light theme by clicking a button.
 tags: ["react", "hooks"]
+readingtime: 7 minutes, 40 seconds
 author: Wilman Arambillete
 ---
 

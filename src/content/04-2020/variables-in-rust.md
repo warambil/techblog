@@ -4,6 +4,7 @@ date: 2020-04-17
 path: /variables-and-memory-management-in-rust
 abstract: This post explores how variables and memory are managed by the  Rust programming language. Concepts like ownership, sharing and borrowing are explained here.
 tags: ["rust"]
+readingtime: 6 minutes, 44 seconds
 author: Wilman Arambillete
 ---
 

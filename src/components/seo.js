@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            pinterestverification
           }
         }
       }
@@ -35,6 +36,10 @@ function SEO({ description, lang, meta, title }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
+        {
+          name: `p:domain_verify`,
+          content: site.siteMetadata.pinterestverification,
+        },
         {
           name: `description`,
           content: metaDescription,

@@ -21,6 +21,9 @@ export default function Template({ data }) {
           <div className="grid">
             <div>
               <h1>{frontmatter.title}</h1>
+              <em className="readingtime">
+                Estimated reading time: {frontmatter.readingtime}
+              </em>
             </div>
             <div className="social">
               <a
@@ -72,6 +75,7 @@ export const pageQuery = graphql`
         path
         tags
         title
+        readingtime
       }
     }
   }

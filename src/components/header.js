@@ -6,7 +6,8 @@ import ThemeSwitcher from "./themeswitcher"
 
 const Header = ({ siteTitle, siteDescription }) => (
   <header>
-    <div className="header"
+    <div
+      className="header"
       style={{
         margin: `0 auto`,
         maxWidth: 960,
@@ -15,31 +16,45 @@ const Header = ({ siteTitle, siteDescription }) => (
     >
       <div className="logo">
         <Link to="/">
-          <Logo />  
+          <Logo />
         </Link>
       </div>
     </div>
     <div className="top-menu">
       <ul>
-        <li><a href="/rss.xml">Feed</a></li>
-        <li><Link to="/about" activeClassName="active">About</Link></li>
+        <li>
+          <a href="/rss.xml">Feed</a>
+        </li>
+        <li>
+          <Link to="/about" activeClassName="active">
+            About
+          </Link>
+        </li>
+        <li>
+          <a
+            href="https://paypal.me/warambil"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Donate
+          </a>
+        </li>
         <li>
           <ThemeSwitcher />
         </li>
       </ul>
-
     </div>
   </header>
 )
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-  siteDescription: PropTypes.string
+  siteDescription: PropTypes.string,
 }
 
 Header.defaultProps = {
-  siteTitle:   ``,
-  siteDescription: ``
+  siteTitle: ``,
+  siteDescription: ``,
 }
 
 export default Header

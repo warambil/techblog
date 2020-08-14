@@ -708,6 +708,7 @@ body {
 
   /*Article*/
   --arth1: #346590;
+  --emtextcolor: #8d8b8b;
 
   /*Footer*/
   --fabgurl: url("https://www.netlify.com/img/global/badges/netlify-light.svg");
@@ -923,6 +924,11 @@ header.grid {
       }
     }
   }
+}
+
+.readingtime {
+  color: var(--emtextcolor);
+  font-size: medium;
 }
 
 article {
