@@ -9,6 +9,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-dark-mode`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

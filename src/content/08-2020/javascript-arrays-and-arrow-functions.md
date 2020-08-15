@@ -211,7 +211,7 @@ Whatever is returned from this function is _added_ to the accumulator, which is 
 
 > **Notice:** _The second parameter of the reduce method is the initialization value for the accumulator. If it is ommited, the first element of the array will be taken as initial value._
 
-### Summary
+## Summary
 
 Programming styles change along the years and we must keep up at the latest trends. It is interesting to observe though, how most languages out there are going towards the same direction.
 

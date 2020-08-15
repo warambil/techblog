@@ -29,20 +29,29 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
-        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+        />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="HandheldFriendly" content="true" />
-        <link rel="stylesheet" href="https://use.typekit.net/xlf0uhu.css"></link>
+        <link
+          rel="stylesheet"
+          href="https://use.typekit.net/xlf0uhu.css"
+        ></link>
       </Helmet>
-      <Header siteTitle={ data.site.siteMetadata.title } siteDescription={ data.site.siteMetadata.description } />
-      <div 
+      <Header
+        siteTitle={data.site.siteMetadata.title}
+        siteDescription={data.site.siteMetadata.description}
+      />
+      <div
         style={{
           margin: `0 auto`,
           maxWidth: 960,
         }}
       >
         <main>{children}</main>
-        <Footer author={ data.site.siteMetadata.author } />
+        <Footer author={data.site.siteMetadata.author} />
       </div>
     </>
   )
@@ -51,6 +60,5 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
-
 
 export default Layout
