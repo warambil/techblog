@@ -269,7 +269,7 @@ function message(msg: string): void {
 }
 ```
 
-If we do not know what type of data it would be, we could use the _nothing_ keyword. In this case, TypeScript does not control what it comes in it. However, its type must be verified before being assigend to any other type.
+If we do not know what type of data it would be, we could use the _unknown_ keyword. In this case, TypeScript does not control what it comes in it. However, its type must be verified before being assigend to any other type.
 
 ```typescript
 let input: unknown
