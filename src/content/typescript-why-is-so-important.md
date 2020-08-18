@@ -70,7 +70,7 @@ npx tsc
 
 ## Configuration
 
-We could create TS files in our project and then compile it through the `tsc` command at the terminal. Let's say we create a file called: `app.js`
+We could create TS files in our project and then compile it through the `tsc` command at the terminal. Let's say we create a file called: `app.ts`
 
 ```typescript
 function add(num1: number, num2: number): number {
