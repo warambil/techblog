@@ -1,7 +1,7 @@
 ---
 title: TypeScript, why is so important?
 date: 2020-08-16
-path: /typescript
+path: /typescript-why-is-so-important
 abstract: Step by step tutorial about TypeScript. Why types are so important.
 tags: ["javascript", "typescript"]
 readingtime: 6 minutes, 34 seconds
