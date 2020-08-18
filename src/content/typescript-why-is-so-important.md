@@ -380,7 +380,7 @@ Reusable components are the foundation of every modern strong typed programming 
 
 For those who come from languages like C++, C#, Kotlin, Java or even Rust, they must be fully acquainted with this concept.
 
-For the rest of the developers, we should say that _Generics_ are a way to declare an array, class or function that use a type unbenknownst to them during the declaration. This _generic_ type is represented by a letter (usually T), enclosed by _greater and less than_ symbols: _<T>_.
+For the rest of the developers, we should say that _Generics_ are a way to declare an array, class or function that use a type unbeknownst to them during the declaration. This _generic_ type is represented by a letter (usually T), enclosed by _greater and less than_ symbols: _<T>_.
 
 Any letter or letters can be used, as long as they are enclosed in _<>_. These letters are later used as tokens within the implementation logic and replaced by _actual types_ when the definition occurs.
 
