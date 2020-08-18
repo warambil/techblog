@@ -118,7 +118,7 @@ This configuration file is divided by sections. As we can see this is a basic sa
 - _include_: It determines the folders where the source code resides
 - _exclude_: It determines what folders or files to exclude from the compilation process
 
-After defining a new configuration file for TypeScript, we are ready to move on and work on multiple JavaScript files located in our `src` folder. Then, all we need to do is run `npx tsc` from the command line, so files can be compiled and moved to the distribution folder.
+After defining a new configuration file for TypeScript, we are ready to move on and work on multiple TypeScript files located in our `src` folder. Then, all we need to do is run `npx tsc` from the command line, so files can be compiled and moved to the distribution folder.
 
 We could also make `tsc` to be called from one of the tasks at the `package.json` and even define `watch` options to automatically run `tsc` every time our code is modified.
 
