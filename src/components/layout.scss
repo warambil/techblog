@@ -711,6 +711,8 @@ body {
 
   /*Article*/
   --arth1: #346590;
+  --arth2: #000;
+  --arth3: #406979;
   --emtextcolor: #8d8b8b;
 
   /*Footer*/
@@ -720,7 +722,7 @@ body {
 body.dark {
   --theme: "dark";
   --bg: #202020;
-  --text: #808080;
+  --text: #9c9fa5;
   --acolor: #346590;
   background-color: var(--bg);
   color: var(--text);
@@ -751,6 +753,7 @@ body.dark {
   /*Article*/
   --arth1: #346590;
   --arth2: #ffd479;
+  --arth3: #406979;
 
   /*Footer*/
   --fabgurl: url("https://www.netlify.com/img/global/badges/netlify-dark.svg");
@@ -949,21 +952,21 @@ article {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #47484a !important;
+    color: var(--arth2);
   }
 
   h3 {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-size: x-large;
-    color: #406979;
+    color: var(--arth3);
   }
 
   h4 {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-size: medium;
-    color: #47484a;
+    color: var(--arth3);
   }
 
   p {
@@ -971,14 +974,14 @@ article {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-size: large;
-    color: #47484a;
+    color: var(--text);
   }
 
   li {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-size: large;
-    color: #47484a;
+    color: var(--text);
   }
 
   ul {
@@ -990,8 +993,12 @@ article {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-size: large;
-    color: #47484a;
+    color: var(--text);
   }
+}
+
+.dark-default-dark {
+  background-color: #2e2e31 !important;
 }
 
 .social {
